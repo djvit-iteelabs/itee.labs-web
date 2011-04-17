@@ -150,6 +150,9 @@ a:hover.menuItem div {
 }
 
 .buttonGreen {
+	position: absolute;
+	top: 133px;
+	left: 690px;
 	height: 24px;
 	width: 72px;
 	display: inline-block;
@@ -242,19 +245,22 @@ a:hover.menuItem div {
 
 .homeSolutions {
 	text-align: left;
+	height: 550px;
 }
 
 .homeSolutionsLine {
-	height: 250px;
-	width: auto;
+	position: absolute;
+	height: 270px;
+	width: 450px;
 	margin: 10px 0px 10px 0px;
 }
 
 .homeSolutionsImgL {
-	height: 250px;
-	width: 300px;
+	height: 110px;
+	width: 110px;
 	float: left;
 	display: inline-block;
+	margin-top: 20px;
 }
 
 .homeSolutionsTxtR {
@@ -265,8 +271,8 @@ a:hover.menuItem div {
 }
 
 .homeSolutionsImgR {
-	height: 250px;
-	width: 300px;
+	height: 150px;
+	width: 150px;
 	float: right;
 	display: inline-block;
 }
@@ -282,10 +288,6 @@ a:hover.menuItem div {
 .leftList{
 	margin-left: 50px;
 	text-align: left;
-}
-
-.leftList li {
-	list-style: none;
 }
 
 #projectsNav{
@@ -466,4 +468,101 @@ a:hover.menuItem div {
 .labs{
 	color: #00b0f0;
 }
+
+#contactPanel{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	top: -180px;
+	background: #ffffff;
+}
+
+#popup_content{
+	margin-left: 200px;
+}
+
+#greenTab{
+	position: absolute;
+	background: url(../images/green-tab.png) no-repeat;
+	width: 20px;
+	height: 169px;
+	margin-left: 23px;
+	margin-top: -131px;
+}
+
+#blueTab{
+	position: absolute;
+	background: url(../images/blue-tab.png) no-repeat;
+	width: 20px;
+	height: 230px;
+	margin-left: 28px;
+	margin-top: -131px;
+}
+
+#violetTab{
+	position: absolute;
+	background: url(../images/violet-tab.png) no-repeat;
+	width: 20px;
+	height: 362px;
+	margin-left: 33px;
+	margin-top: -131px;
+}
+
+#redTab{
+	position: absolute;
+	background: url(../images/red-tab.png) no-repeat;
+	width: 20px;
+	height: 457px;
+	margin-left: 38px;
+	margin-top: -131px;
+}
+
+#yellowTab{
+	position: absolute;
+	background: url(../images/yellow-tab.png) no-repeat;
+	width: 20px;
+	height: 517px;
+	margin-left: 42px;
+	margin-top: -131px;
+}
+
+#headerCaption{
+	text-align: right;
+	margin: 30px;
+}
+
+.headerText{
+	display: block;
+	font-family: "Arial";
+	font-weight: 900;
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+
+.z_index{
+	z-index: 99999;
+	margin-left: 23px;
+}
+
+#homeBooklets{
+	margin: 10px;
+	padding: 10px;
+}
+
+#homeBooks{
+    margin-left: 500px;
+    padding: 10px;
+}
+
+#homeCatalogs{
+    margin-top: 260px;
+    padding: 10px;
+}
+
+#homePeriodic{
+    margin-left: 500px;
+    margin-top: 260px;
+    padding: 10px;
+}
+
 /*End Eugene Styles*/

@@ -46,21 +46,33 @@ $(document).ready(function() {
 		$(this).addClass('current');
 	});
 	
+	$('#contactsClip').click(function(){
+		$('#wrapper1').animate({top: "180px"},{queue:false, duration: 2000});
+		$('#mask').animate({top: "180px"},{queue:false, duration: 2000});
+		$('#contactPanel').animate({top: "0px"},{queue:false, duration: 2000});
+		$('#footer').animate({top: "180px"},{queue:false, duration: 2000});		
+	});	
 });
 
 function Show_Popup() {
-	$('#mask').height($(document).height());
-	$('#mask').width($(document).width());
+	//$('#mask').height($(document).height());
+	//$('#mask').width($(document).width());
+	$('#mask').height($('#wrapper1').height());
+	$('#mask').width($('#wrapper1').width());
 	$('#mask').fadeIn(500);
 	var tHeight, tWidth, wHeight, wWidth;
 	
-	$('#window').css('top', ($(window).height() - $('#window').height())/2  + 'px');
-	$('#window').css('left', ($(window).width() - $('#window').width())/2  + 'px');
+	//$('#window').css('top', ($(window).height() - $('#window').height())/2  + 'px');
+	//$('#window').css('left', ($(window).width() - $('#window').width())/2  + 'px');
 	
-	$('#window').show('drop', { direction: 'up' }, 500);
+	//$('#window').show('drop', { direction: 'up' }, 500);
 }
 
 function Close_Popup() {
-	$('#mask').fadeOut(500);
-	$('#window').hide('drop', { direction: 'up' }, 500);
+	//$('#mask').fadeOut(500);
+	//$('#window').hide('drop', { direction: 'up' }, 500);
+	$('#wrapper1').animate({top: "0px"},{queue:false, duration: 2000});
+	$('#mask').animate({top: "0px"},{queue:false, duration: 2000}).fadeOut(500);
+	$('#contactPanel').animate({top: "-180px"},{queue:false, duration: 2000});
+	$('#footer').animate({top: "0px"},{queue:false, duration: 2000});
 }
