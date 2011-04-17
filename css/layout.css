@@ -1,0 +1,142 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	min-height: 768px;
+	min-width: 1024px;
+	margin: 0px;
+	padding: 0px;
+	color: #555555;
+	font-family: Verdana, Lucida Sans, Arial, Geneva, sans-serif;
+	background: #939498 url(../images/bg.page.png) repeat;
+}
+
+#wrapper1 {
+	position: relative;
+	text-align: left;
+	width: 100%;
+	background: #F1F1F1 url("../images/bg.R.png") repeat-y top right;
+}
+
+#wrapper2 {
+	position: relative;
+	text-align: left;
+	width: 100%;
+	background: transparent url("../images/bg.L.png") repeat-y top left;
+}
+
+#header {
+	background: #BB62AB;
+	padding: 00px;
+	margin: 0px;
+	text-align: center;
+	color: #000000;
+}
+
+#maincol {
+	position: relative;
+	margin: 0px;
+	padding: 10px;
+}
+
+#leftcol { 
+	position: relative;
+	top: -10px;
+	left: -10px;
+	float: left;
+	width: 248px;  /* for IE5/WIN */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 228px; /* actual value */
+	margin: 0 0 -10px 0;
+	padding: 10px;
+	background: transparent;
+	z-index: 100;
+}
+
+#rightcol {
+	position: relative;
+	top: -10px;
+	right: -10px;
+	float: right;
+	width: 120px;  /* for IE5/WIN */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 100px; /* actual value */
+	margin: 0 0 -10px 0;
+	padding: 10px;
+	background: transparent;
+	z-index:99;
+}
+
+#centercol {
+	position: relative;
+	min-height: 550px;
+	padding:30px 130px 0px 300px;
+	text-align: center;
+}
+
+#footer {
+	/*position: relative;*/
+	/*bottom: -135px;*/
+	background: #FFFFFF;
+	-moz-opacity:0.45;
+	-khtml-opacity: 0.45;
+	opacity: 0.45;
+	filter: alpha(opacity=45);
+	width: 100%;
+	height: 60px;
+	clear: both;
+	margin: 0px;
+	margin-top: 20px;
+	padding: 25px 0px 20px 0px;
+	text-align: center;
+	color: #000000;
+}
+
+#bookfooter {
+	position: relative;
+	top: 0px;
+	background: transparent;
+	width: 100%;
+	height: 10px;
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	color: #000000;
+}
+
+#bfwrapper1 {
+	position: relative;
+	text-align: left;
+	width: 100%;
+	height: 10px;
+	background: transparent url("../images/bg.book.BR.png") no-repeat top right;
+	z-index: 1000;
+}
+
+#bfwrapper2 {
+	position: relative;
+	text-align: left;
+	width: 100%;
+	height: 10px;
+	background: transparent url("../images/bg.book.B.png") no-repeat top left;
+}
+	
+#bfcentercol {
+	position: relative;
+	height: 10px;
+	padding: 0px 90px 0px 451px;
+}
+
+#bfcentercol div{
+	background: transparent url("../images/bg.book.C.png") repeat-x top left;
+}
+
+.opaque {
+	-moz-opacity:1.0 !important;
+	-khtml-opacity: 1.0 !important;
+	opacity: 1.0 !important;
+	background: transparent;
+}	
+
