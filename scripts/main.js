@@ -16,21 +16,6 @@ $(document).ready(function() {
 		
 	});
 
-	//Projects navigation push effect
-	$("#projectsNav a").click(function(){
-		$("#projectsNav a").each(function(){
-			$(this).removeClass('current');
-		});
-		
-		//Panes showing
-		var id = $(this).attr('href');
-		var pane = $(document).find(id);
-		$("#projectsPanes div").css({"display":"none"});
-		$(pane).fadeIn(2000);
-
-		$(this).addClass('current');
-	});
-
 	//Solutions navigation push effect
 	$("#solutionsNav a").click(function(){
 		$("#solutionsNav a").each(function(){
@@ -44,7 +29,21 @@ $(document).ready(function() {
 		var pane = $(this).attr('href');
 		$('#solPanes div[id*=Pane]').hide();
 		$(pane).fadeIn(2000);
-		$('#headerCaption').focus();
+	});
+	
+	//projects Navigation
+	$('#projectsNav a').click(function(){
+		$("#projectsNav a").each(function(){
+			$(this).find('img').removeClass('current');
+		});
+		
+		$(this).find('img').addClass('current');
+		
+		$('#projectsNav').hide();
+		
+		var pane = $(this).attr('href');
+		$('#projectsPanes div[id*=Pane]').hide();
+		$(pane).fadeIn(2000);
 	});
 	
 	$('#contactsClip').click(function(){
