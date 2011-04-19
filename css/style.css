@@ -52,6 +52,10 @@ p {
 	font-size: 16px
 }
 
+.text18px{
+	font-size: 18px;
+}
+
 .bigText {
 	font-size: 30px
 }
@@ -279,11 +283,11 @@ by Eugene*/
 }
 
 .homeSolutionsImgL {
-	height: 250px;
-	width: 210px;
-	float: left;
-	display: inline-block;
-	margin-top: 40px;
+    display: inline-block;
+    float: left;
+    height: 300px;
+    margin-top: 60px;
+    width: 210px;
 }
 
 .homeSolutionsTxtR {
@@ -420,10 +424,8 @@ by Eugene*/
 #solutionsNav li {
     float: left;
     list-style-type: none;
-    margin-right: 5px;
-    padding-left: 1px;
     text-align: center;
-    width: 220px;
+    width: 200px;
 	height:220px;
 }
 
@@ -438,7 +440,7 @@ by Eugene*/
 	font-size: 12px;
 }
 
-#solutionsNav a.current {
+.current {
 } 
 
 #solutionsPanes {
@@ -553,21 +555,23 @@ by Eugene*/
 
 #homeBooklets{
     float: left;
-    width: 420px;
+    width: 390px;
 }
 
 #homeBooks{
     float: left;
-    width: 420px;
+    width: 390px;
 }
 
 #homeCatalogs{
     float: left;
-    width: 420px;}
+    width: 390px;
+}
 
 #homePeriodic{
     float: left;
-    width: 420px;}
+    width: 390px;
+}
 
 .solheaderText{
 	display: block;
@@ -615,4 +619,7 @@ by Eugene*/
     text-align: left;
 }
 
+#periodicPane p{
+	display: inline-block;
+}
 /*End Eugene Styles*/

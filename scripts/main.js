@@ -34,16 +34,17 @@ $(document).ready(function() {
 	//Solutions navigation push effect
 	$("#solutionsNav a").click(function(){
 		$("#solutionsNav a").each(function(){
-			$(this).removeClass('current');
+			$(this).find('img').removeClass('current');
 		});
 		
-		//Panes showing
-		//var id = $(this).attr('href');
-		//var pane = $(document).find(id);
-		//$("#solutionsPanes div").css({"display":"none"});
-		//$(pane).fadeIn(2000);
-
-		$(this).addClass('current');
+		$(this).find('img').addClass('current');
+		$('#solHeader').hide();
+		$('#solFooter').hide();
+		
+		var pane = $(this).attr('href');
+		$('#solPanes div[id*=Pane]').hide();
+		$(pane).fadeIn(2000);
+		$('#headerCaption').focus();
 	});
 	
 	$('#contactsClip').click(function(){
