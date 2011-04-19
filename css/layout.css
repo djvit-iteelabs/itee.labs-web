@@ -11,7 +11,8 @@ html, body {
 }
 
 #wrapper1 {
-	position: relative;
+	/*position: absolute;*/
+	display: inline-block;
 	text-align: left;
 	width: 100%;
 	background: #F1F1F1 url("../images/bg.R.png") repeat-y top right;

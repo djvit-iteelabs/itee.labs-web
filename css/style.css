@@ -44,6 +44,10 @@ p {
 	font-size: 12px
 }
 
+.text14px{
+	font-size: 14px;
+}
+
 .midText {
 	font-size: 16px
 }
@@ -70,6 +74,10 @@ p {
 
 .center {
 	text-align: center;
+}
+
+.justify{
+	text-align:justify;	
 }
 
 .logo {
@@ -150,6 +158,7 @@ a:hover.menuItem div {
 }
 
 .buttonGreen {
+/*
 	position: absolute;
 	top: 133px;
 	left: 690px;
@@ -163,7 +172,22 @@ a:hover.menuItem div {
 	padding: 3px 0px 0px 0px;
 	background: transparent url(../images/btn.green.png) no-repeat;
 	cursor: pointer;
+by Eugene*/
+    background: url("../images/btn.green.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 24px;
+    left: -90px;
+    padding: 3px 0 0;
+    position: relative;
+    text-align: center;
+    top: -60px;
+    width: 72px;
 }
+
 
 .buttonCyan {
 	height: 24px;
@@ -244,8 +268,7 @@ a:hover.menuItem div {
 }
 
 .homeSolutions {
-	text-align: left;
-	height: 550px;
+	display: inline-block;
 }
 
 .homeSolutionsLine {
@@ -256,11 +279,11 @@ a:hover.menuItem div {
 }
 
 .homeSolutionsImgL {
-	height: 110px;
-	width: 110px;
+	height: 250px;
+	width: 210px;
 	float: left;
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .homeSolutionsTxtR {
@@ -384,27 +407,24 @@ a:hover.menuItem div {
 }
 
 #solutionsNav{
-	background:#ddd url(../images/nav_bg.png);
-	height: 156px;
-	width: auto;
-	min-width: 500px;
-	margin-right: 50px;
+    height: 200px;
+    width: 100%;
 }
 
 #solutionsNav ul{
 	margin: 0 auto;
-	margin-left: -40px;
+	margin-left: -65px;
 	width: auto;
 }
 
 #solutionsNav li {
-    border-right: 1px solid #DDDDDD;
     float: left;
     list-style-type: none;
-    margin-top: 0;
+    margin-right: 5px;
     padding-left: 1px;
     text-align: center;
-    width: 150px;
+    width: 220px;
+	height:220px;
 }
 
 #solutionsNav a {
@@ -418,21 +438,7 @@ a:hover.menuItem div {
 	font-size: 12px;
 }
 
-#solutionsNav img {
-	background-color:#EBEBEB;
-	border: 1px solid #ccc;
-	margin: 3px 0 5px 15px;
-	padding: 4px;
-	display: block;
-}
-
-#solutionsNav strong {
-	display: block;
-	font-size:13px;
-}
-
 #solutionsNav a.current {
-    background: url(../images/down_large.jpg) repeat scroll 0 0 transparent;
 } 
 
 #solutionsPanes {
@@ -470,10 +476,11 @@ a:hover.menuItem div {
 }
 
 #contactPanel{
-	position: absolute;
+	/*position: absolute; Eugene*/
+	display:inline-block;
 	width: 100%;
 	height: 180px;
-	top: -180px;
+	margin-top: -180px;
 	background: #ffffff;
 }
 
@@ -545,24 +552,67 @@ a:hover.menuItem div {
 }
 
 #homeBooklets{
-	margin: 10px;
-	padding: 10px;
+    float: left;
+    width: 420px;
 }
 
 #homeBooks{
-    margin-left: 500px;
-    padding: 10px;
+    float: left;
+    width: 420px;
 }
 
 #homeCatalogs{
-    margin-top: 260px;
-    padding: 10px;
-}
+    float: left;
+    width: 420px;}
 
 #homePeriodic{
-    margin-left: 500px;
-    margin-top: 260px;
-    padding: 10px;
+    float: left;
+    width: 420px;}
+
+.solheaderText{
+	display: block;
+	font-family: "Verdana";
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+
+.solheaderText:first-letter{
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.rightSideText{
+    font-family: "Verdana";
+    letter-spacing: 2px;
+    margin-left: 420px;
+    text-align: left;
+}
+
+.solNavText{
+    display: inline-block;
+    font-family: "Verdana";
+    font-size: 14px;
+    letter-spacing: 2px;
+	font-weight: 600;
+    text-align: center;
+	margin-top: 10px;
+}
+
+.solNavText:first-letter{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.solMainText{
+    font-family: "Verdana";
+	letter-spacing: 2px;	
+}
+
+.solHeaderText{
+    font-family: "Verdana";
+    letter-spacing: 2px;
+    text-align: left;
 }
 
 /*End Eugene Styles*/
