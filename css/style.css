@@ -36,6 +36,10 @@ p {
 	color: #F7AE00;
 }
 
+.hotyellow{
+	color: #f6ae00;	
+}
+
 .smallText {
 	font-size: 8px
 }
@@ -261,13 +265,13 @@ by Eugene*/
 }
 
 #contactsClip {
-	background: transparent url(../images/paperclip.png) no-repeat;
-	height: 100px;
-	width: 34px;
+	background: transparent url(../images/paperclip_label.png) no-repeat;
+	height: 154px;
+	width: 83px;
 	
 	position: relative;
 	top: -30px;
-	left: -30px;
+	left: -70px;
 	cursor: pointer;
 }
 
@@ -467,7 +471,7 @@ by Eugene*/
 	width: 20px;
 	height: 169px;
 	margin-left: 23px;
-	margin-top: -131px;
+	margin-top: -185px;
 }
 
 #blueTab{
@@ -476,7 +480,7 @@ by Eugene*/
 	width: 20px;
 	height: 230px;
 	margin-left: 28px;
-	margin-top: -131px;
+	margin-top: -185px;
 }
 
 #violetTab{
@@ -485,7 +489,7 @@ by Eugene*/
 	width: 20px;
 	height: 362px;
 	margin-left: 33px;
-	margin-top: -131px;
+	margin-top: -185px;
 }
 
 #redTab{
@@ -494,7 +498,7 @@ by Eugene*/
 	width: 20px;
 	height: 457px;
 	margin-left: 38px;
-	margin-top: -131px;
+	margin-top: -185px;
 }
 
 #yellowTab{
@@ -503,7 +507,7 @@ by Eugene*/
 	width: 20px;
 	height: 517px;
 	margin-left: 42px;
-	margin-top: -131px;
+	margin-top: -185px;
 }
 
 #headerCaption{
@@ -517,6 +521,7 @@ by Eugene*/
 	font-weight: 900;
 	font-size: 18px;
 	letter-spacing: 4px;
+	margin-right: 20px;
 }
 
 .z_index{
@@ -550,6 +555,7 @@ by Eugene*/
 	font-size: 18px;
 	letter-spacing: 2px;
 	text-decoration: underline;
+	margin-right: 20px;
 }
 
 .solheaderText:first-letter{
