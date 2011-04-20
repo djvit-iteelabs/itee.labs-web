@@ -64,6 +64,10 @@ p {
 	font-size: 30px
 }
 
+.vbigText {
+	font-size: 45px
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -86,6 +90,10 @@ p {
 
 .justify{
 	text-align:justify;	
+}
+
+.underline{
+	text-decoration:underline;	
 }
 
 .logo {
@@ -266,7 +274,7 @@ by Eugene*/
 
 #contactsClip {
 	background: transparent url(../images/paperclip_label.png) no-repeat;
-	height: 154px;
+	height: 106px;
 	width: 83px;
 	
 	position: relative;
@@ -471,7 +479,7 @@ by Eugene*/
 	width: 20px;
 	height: 169px;
 	margin-left: 23px;
-	margin-top: -185px;
+	margin-top: -138px;
 }
 
 #blueTab{
@@ -480,7 +488,7 @@ by Eugene*/
 	width: 20px;
 	height: 230px;
 	margin-left: 28px;
-	margin-top: -185px;
+	margin-top: -138px;
 }
 
 #violetTab{
@@ -489,7 +497,7 @@ by Eugene*/
 	width: 20px;
 	height: 362px;
 	margin-left: 33px;
-	margin-top: -185px;
+	margin-top: -138px;
 }
 
 #redTab{
@@ -498,7 +506,7 @@ by Eugene*/
 	width: 20px;
 	height: 457px;
 	margin-left: 38px;
-	margin-top: -185px;
+	margin-top: -138px;
 }
 
 #yellowTab{
@@ -507,7 +515,7 @@ by Eugene*/
 	width: 20px;
 	height: 517px;
 	margin-left: 42px;
-	margin-top: -185px;
+	margin-top: -138px;
 }
 
 #headerCaption{
@@ -599,4 +607,21 @@ by Eugene*/
 #periodicPane p{
 	display: inline-block;
 }
+
+#leftBlog{
+    float: left;
+    padding: 0 20px;
+    width: 56%;
+}
+
+#rightBlog{
+    float: left;
+    padding: 0 20px;
+    width: 32%;
+}
+
+.clearBlog{
+	clear: left;
+}
+
 /*End Eugene Styles*/

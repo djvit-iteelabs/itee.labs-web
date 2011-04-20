@@ -49,8 +49,8 @@ $(document).ready(function() {
 });
 
 function Show_Popup() {
-		$('#mask').animate({marginTop: "180px"},{queue:false, duration: 2000});
-		$('#contactPanel').animate({marginTop: "0px"},{queue:false, duration: 2000});
+		$('#mask').animate({marginTop: "180px"},{queue:false, duration: 500});
+		$('#contactPanel').animate({marginTop: "0px"},{queue:false, duration: 500});
 		$('#mask').height($('#wrapper1').height() + 135);
 		$('#mask').width($('#wrapper1').width());
 		$('#mask').fadeIn(500);
@@ -58,6 +58,6 @@ function Show_Popup() {
 }
 
 function Close_Popup() {
-	$('#mask').animate({marginTop: "0px"},{queue:false, duration: 2000}).fadeOut(500);
-	$('#contactPanel').animate({marginTop: "-180px"},{queue:false, duration: 2000});
+	$('#mask').animate({marginTop: "0px"},{queue:false, duration: 500}).fadeOut(500);
+	$('#contactPanel').animate({marginTop: "-180px"},{queue:false, duration: 500});
 }
