@@ -634,3 +634,9 @@ by Eugene*/
 	background: url(../images/contact-bg2.png) no-repeat 70% #FFFFFF;
 }
 /*End Eugene Styles*/
+
+#midContainer {
+	width: 850px;
+	margin: 0px auto 0px auto;
+}
+ */
