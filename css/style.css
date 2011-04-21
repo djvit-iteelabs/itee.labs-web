@@ -200,7 +200,7 @@ by Eugene*/
     padding: 3px 0 0;
     position: relative;
     text-align: center;
-    top: -60px;
+    top: -50px;
     width: 72px;
 }
 
@@ -457,7 +457,7 @@ by Eugene*/
 	color: #00b050;
 }
 .labs{
-	color: #00b0f0;
+	color: #000;
 }
 
 #contactPanel{
@@ -629,4 +629,7 @@ by Eugene*/
 	clear: left;
 }
 
+#contactPanel{
+	background: url(../images/contact-bg2.png) no-repeat 70% #FFFFFF;
+}
 /*End Eugene Styles*/
