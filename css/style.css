@@ -129,13 +129,14 @@ a.menuItem {
 
 a.menuItem div {
 	height: 28px;
-	width: 165px;
+	width: 150px;
 	padding: 0px 0px 0px 10px;
 	display: inline-block;
 }
 
 a:hover.menuItem div {
 	border-left: #FFFFFF 3px solid;
+	border-bottom: dotted #FFFFFF;
 }
 
 .greenMenu {
