@@ -481,6 +481,7 @@ by Eugene*/
 	height: 169px;
 	margin-left: 23px;
 	margin-top: -138px;
+	cursor: pointer;
 }
 
 #blueTab{
@@ -490,6 +491,7 @@ by Eugene*/
 	height: 230px;
 	margin-left: 28px;
 	margin-top: -138px;
+	cursor: pointer;
 }
 
 #violetTab{
@@ -499,6 +501,7 @@ by Eugene*/
 	height: 362px;
 	margin-left: 33px;
 	margin-top: -138px;
+	cursor: pointer;
 }
 
 #redTab{
@@ -508,6 +511,7 @@ by Eugene*/
 	height: 457px;
 	margin-left: 38px;
 	margin-top: -138px;
+	cursor: pointer;
 }
 
 #yellowTab{
@@ -517,6 +521,7 @@ by Eugene*/
 	height: 517px;
 	margin-left: 42px;
 	margin-top: -138px;
+	cursor: pointer;
 }
 
 #headerCaption{

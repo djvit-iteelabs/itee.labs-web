@@ -45,7 +45,25 @@ $(document).ready(function() {
 		var pane = $(this).attr('href');
 		$('#projectsPanes div[id*=Pane]').hide();
 		$(pane).fadeIn(2000);
+	});
+	
+	//tabs actions
+	$('#greenTab').click(function(){
+		window.open('solutions.html', '_self');
+	});
+	$('#blueTab').click(function(){
+		window.open('projects.html', '_self');
+	});
+	$('#violetTab').click(function(){
+		window.open('technology.html', '_self');
+	});		
+	$('#redTab').click(function(){
+		window.open('blog.html', '_self');
 	});	
+	$('#yellowTab').click(function(){
+		window.open('about.html', '_self');
+	});	
+	
 });
 
 function Show_Popup() {
