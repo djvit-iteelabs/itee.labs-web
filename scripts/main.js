@@ -49,19 +49,19 @@ $(document).ready(function() {
 	
 	//tabs actions
 	$('#greenTab').click(function(){
-		window.open('solutions.html');
+		window.open('solutions.html', '_self');
 	});
 	$('#blueTab').click(function(){
-		window.open('projects.html');
+		window.open('projects.html', '_self');
 	});
 	$('#violetTab').click(function(){
-		window.open('technology.html');
+		window.open('technology.html', '_self');
 	});		
 	$('#redTab').click(function(){
-		window.open('blog.html');
+		window.open('blog.html', '_self');
 	});	
 	$('#yellowTab').click(function(){
-		window.open('about.html');
+		window.open('about.html', '_self');
 	});	
 	
 });
