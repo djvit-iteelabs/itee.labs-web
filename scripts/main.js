@@ -64,6 +64,9 @@ $(document).ready(function() {
 		window.open('about.html', '_self');
 	});	
 	
+	$('#mask').click(function(){
+		Close_Popup();
+	});
 });
 
 function Show_Popup() {
