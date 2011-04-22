@@ -135,33 +135,33 @@ a.menuItem div {
 }
 
 a:hover.menuItem div {
-	border-left: #FFFFFF 3px solid;
-	border-bottom: dotted #FFFFFF;
+	border-left: #FFFFFF 10px solid;
+	/* border-bottom: dotted #FFFFFF; */
 }
 
 .greenMenu {
 	background: transparent url(../images/tab.green.png) no-repeat;
-	border-left: #7BB522 3px solid;
+	border-left: #7BB522 10px solid;
 }
 
 .cyanMenu {
 	background: transparent url(../images/tab.cyan.png) no-repeat;
-	border-left: #25AAE1 3px solid;
+	border-left: #25AAE1 10px solid;
 }
 
 .magentaMenu {
 	background: transparent url(../images/tab.magenta.png) no-repeat;
-	border-left: #BC21F6 3px solid;
+	border-left: #BC21F6 10px solid;
 }
 
 .redMenu {
 	background: transparent url(../images/tab.red.png) no-repeat;
-	border-left: #D91f4B 3px solid;
+	border-left: #D91f4B 10px solid;
 }
 
 .yellowMenu {
 	background: transparent url(../images/tab.yellow.png) no-repeat;
-	border-left: #F7AE00 3px solid;
+	border-left: #F7AE00 10px solid;
 }
 
 #topblock {
@@ -644,4 +644,3 @@ by Eugene*/
 	width: 850px;
 	margin: 0px auto 0px auto;
 }
-
