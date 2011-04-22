@@ -644,3 +644,7 @@ by Eugene*/
 	width: 850px;
 	margin: 0px auto 0px auto;
 }
+
+.autoMargin{
+	margin: 0 auto;
+}

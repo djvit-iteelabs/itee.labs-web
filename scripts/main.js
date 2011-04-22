@@ -91,7 +91,26 @@ $(document).ready(function() {
 		
 		var pane = $(this).attr('href');
 		$('#projectsPanes div[id*=Pane]').hide();
+		$('#projectsCount').hide();
 		$(pane).fadeIn(2000);
+		
+		switch (pane){
+			case '#edetPane':
+				$('#projectNumPage').text('-03:3-');
+			break;
+			case '#miniPane':
+				$('#projectNumPage').text('-03:1-');
+			break;
+			case '#infoPane':
+				$('#projectNumPage').text('-03:2-');
+			break;
+			case '#tronPane':
+				$('#projectNumPage').text('-03:4-');
+			break;
+			default:
+				$('#projectNumPage').text('-03-');
+			break;
+		}
 	});
 	
 	//tabs actions
