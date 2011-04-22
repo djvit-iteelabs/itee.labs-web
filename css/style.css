@@ -400,16 +400,16 @@ by Eugene*/
 }
 
 #solutionsNav ul{
-	margin: 0 auto;
+/*	margin: 0 auto;
 	margin-left: -65px;
-	width: auto;
+	width: auto;*/
 }
 
 #solutionsNav li {
     float: left;
     list-style-type: none;
     text-align: center;
-    width: 200px;
+    width: 190px;
 	height:220px;
 }
 
@@ -580,6 +580,7 @@ by Eugene*/
 .rightSideText{
     font-family: "Verdana";
     /*letter-spacing: 2px;*/
+	margin: 0;
     margin-left: 420px;
     text-align: left;
 }
@@ -633,10 +634,14 @@ by Eugene*/
 #contactPanel{
 	background: url(../images/contact-bg3.png) no-repeat bottom right #FFFFFF;
 }
+
+.text-shadow{
+	text-shadow: 2px 2px 4px #000;
+}
 /*End Eugene Styles*/
 
 #midContainer {
 	width: 850px;
 	margin: 0px auto 0px auto;
 }
- */
+

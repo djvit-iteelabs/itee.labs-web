@@ -18,11 +18,12 @@ $(document).ready(function() {
 
 	//Solutions navigation push effect
 	$("#solutionsNav a").click(function(){
+		/*
 		$("#solutionsNav a").each(function(){
 			$(this).find('img').removeClass('current');
 		});
 		
-		$(this).find('img').addClass('current');
+		$(this).find('img').addClass('current');*/
 		$('#solHeader').hide();
 		$('#solFooter').hide();
 		
@@ -30,8 +31,54 @@ $(document).ready(function() {
 		$('#solPanes div[id*=Pane]').hide();
 		
 		$(pane).show();
+		$('#logoButton').focus()
 	});
 	
+	//Solution Links actions
+	$('#periodicLink').click(function(){
+		$('#periodicLink > img').attr('src','images/sol.periodic.sh.png');
+		$('#periodicLink > span').addClass('text-shadow');
+		$('#booksLink > img').attr('src','images/sol.books.png');
+		$('#booksLink > span').removeClass('text-shadow');	
+		$('#bookletsLink > img').attr('src','images/sol.booklets.png');
+		$('#bookletsLink > span').removeClass('text-shadow');
+		$('#catalogsLink > img').attr('src','images/sol.catalogs.png');
+		$('#catalogsLink > span').removeClass('text-shadow');
+	});
+	
+	$('#booksLink').click(function(){
+		$('#periodicLink > img').attr('src','images/sol.periodic.png');
+		$('#periodicLink > span').removeClass('text-shadow');
+		$('#booksLink > img').attr('src','images/sol.books.sh.png');
+		$('#booksLink > span').addClass('text-shadow');	
+		$('#bookletsLink > img').attr('src','images/sol.booklets.png');
+		$('#bookletsLink > span').removeClass('text-shadow');
+		$('#catalogsLink > img').attr('src','images/sol.catalogs.png');
+		$('#catalogsLink > span').removeClass('text-shadow');
+	});
+
+	$('#bookletsLink').click(function(){
+		$('#periodicLink > img').attr('src','images/sol.periodic.png');
+		$('#periodicLink > span').removeClass('text-shadow');
+		$('#booksLink > img').attr('src','images/sol.books.png');
+		$('#booksLink > span').removeClass('text-shadow');	
+		$('#bookletsLink > img').attr('src','images/sol.booklets.sh.png');
+		$('#bookletsLink > span').addClass('text-shadow');
+		$('#catalogsLink > img').attr('src','images/sol.catalogs.png');
+		$('#catalogsLink > span').removeClass('text-shadow');
+	});
+	
+	$('#catalogsLink').click(function(){
+		$('#periodicLink > img').attr('src','images/sol.periodic.png');
+		$('#periodicLink > span').removeClass('text-shadow');
+		$('#booksLink > img').attr('src','images/sol.books.png');
+		$('#booksLink > span').removeClass('text-shadow');	
+		$('#bookletsLink > img').attr('src','images/sol.booklets.png');
+		$('#bookletsLink > span').removeClass('text-shadow');
+		$('#catalogsLink > img').attr('src','images/sol.catalogs.sh.png');
+		$('#catalogsLink > span').addClass('text-shadow');
+	});
+
 	//projects Navigation
 	$('#projectsNav a').click(function(){
 		$("#projectsNav a").each(function(){
