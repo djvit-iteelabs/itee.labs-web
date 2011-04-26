@@ -354,12 +354,14 @@ by Eugene*/
 #projectsNav a {
     color: #333333;
     display: block;
-    height: 280px;
-    padding: 17px;
+    height: 270px;
+    /*padding: 17px;*/
     position: relative;
     text-decoration: none;
     word-spacing: -2px;
 	font-size: 12px;
+	float: left;
+	width: 270px;
 }
 
 #projectsNav a.current {
@@ -648,4 +650,7 @@ by Eugene*/
 
 .autoMargin{
 	margin: 0 auto;
+}
+#projectsPanes img{
+	margin: 10px;
 }
