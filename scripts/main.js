@@ -30,7 +30,7 @@ $(document).ready(function() {
 		var pane = $(this).attr('href');
 		$('#solPanes div[id*=Pane]').hide();
 		
-		$(pane).show();
+		$(pane).fadeIn(2000);
 		$('#logoButton').focus()
 	});
 	
