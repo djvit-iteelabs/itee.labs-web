@@ -12,6 +12,21 @@
 	<script type="text/javascript" language="JavaScript" src="scripts/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript" language="JavaScript" src="scripts/jquery-ui-1.8.9.custom.min.js"></script>	
 	<script type="text/javascript" language="JavaScript" src="scripts/main.js"></script>
+	<script type="text/javascript" language="JavaScript">
+		$(document).ready(function(){
+			var pane = location.href;
+			var i = pane.indexOf("#");
+			
+			pane = pane.substring(i);
+			
+			if(i > 0){
+				$('#solHeader').hide();
+				$('#solFooter').hide();
+				
+				$(pane).fadeIn(2000);		
+			}
+		});
+	</script>
 </head>
     	<body> 
 		<div id="contactPanel">
@@ -85,7 +100,7 @@
 								consume content, eliminating borders between 
 								magazine, shop, game, and movie.  People are seeking 
 								fascinating rich media experiences wherever they go, 
-								using their preferred devices. In today�s world, in 
+								using their preferred devices. In today's world, in 
 								order to build distinctive brands, develop sustainable 
 								business strategies, and achieve greater profitability, 
 								companies need to deliver optimized content to a 

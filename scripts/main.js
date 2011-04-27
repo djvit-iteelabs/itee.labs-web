@@ -17,24 +17,20 @@ $(document).ready(function() {
 	});
 
 	//Solutions navigation push effect
-	$("#solutionsNav a").click(function(){
-		/*
-		$("#solutionsNav a").each(function(){
-			$(this).find('img').removeClass('current');
-		});
+	$("#solutionsNav a").click(function(event){
+		event.preventDefault();
 		
-		$(this).find('img').addClass('current');*/
 		$('#solHeader').hide();
 		$('#solFooter').hide();
 		
 		var pane = $(this).attr('href');
 		$('#solPanes div[id*=Pane]').hide();
-		
 		$(pane).fadeIn(2000);
-		$('#logoButton').focus()
+
 	});
 	
 	//Solution Links actions
+
 	$('#periodicLink').click(function(){
 		$('#periodicLink > img').attr('src','images/sol.periodic.sh.png');
 		$('#periodicLink > span').addClass('text-shadow');
@@ -79,19 +75,17 @@ $(document).ready(function() {
 		$('#catalogsLink > span').addClass('text-shadow');
 	});
 
+
 	//projects Navigation
-	$('#projectsNav a').click(function(){
-		$("#projectsNav a").each(function(){
-			$(this).find('img').removeClass('current');
-		});
-		
-		$(this).find('img').addClass('current');
-		
+	$('#projectsNav a').click(function(event){
+		event.preventDefault();
+				
 		$('#projectsNav').hide();
 		
 		var pane = $(this).attr('href');
 		$('#projectsPanes div[id*=Pane]').hide();
 		$('#projectsCount').hide();
+		$('#headerCaption').html('<span class="solheaderText">PROJECTS</span>');
 		$(pane).fadeIn(2000);
 		
 		switch (pane){
@@ -132,7 +126,8 @@ $(document).ready(function() {
 	
 	$('#mask').click(function(){
 		Close_Popup();
-	});
+	})
+	
 });
 
 function Show_Popup() {
