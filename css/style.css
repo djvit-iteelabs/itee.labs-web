@@ -135,7 +135,9 @@ a.menuItem div {
 }
 
 a:hover.menuItem div {
-	border-left: #FFFFFF 10px solid;
+	/*
+border-left: #FFFFFF 10px solid;
+*/
 	/* border-bottom: dotted #FFFFFF; */
 }
 
@@ -375,14 +377,6 @@ by Eugene*/
 	margin-top: 20px;	
 }
 
-#projectsPanes {
-
-}
-
-#projectsPanes div {
-
-}
-
 .imgFloatLeft{
 	float: left;
 	margin-right: 20px;
@@ -482,7 +476,7 @@ by Eugene*/
 	background: url(../images/green-tab.png) no-repeat;
 	width: 20px;
 	height: 169px;
-	margin-left: 23px;
+	margin-left: 20px;
 	margin-top: -135px;
 	cursor: pointer;
 }
@@ -633,7 +627,8 @@ by Eugene*/
 }
 
 .text-shadow{
-	/*text-shadow: 1px 1px 2px #000;*/
+	text-shadow: 0px 0px 3px #fff;
+	text-decoration:underline;
 }
 /*End Eugene Styles*/
 
@@ -645,10 +640,16 @@ by Eugene*/
 .autoMargin{
 	margin: 0 auto;
 }
+
 #projectsPanes img{
 	margin: 10px;
 }
 
 .homeSolutions a{
-	text-decoration:none;
+	text-decoration: none;
+}
+
+#projectsPanes a{
+	text-decoration: none;
+	color: #000;
 }

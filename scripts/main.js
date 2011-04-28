@@ -15,7 +15,24 @@ $(document).ready(function() {
 		$(this).next('[class^="subMenu"]').show('blind', opts, 200);
 		
 	});
-
+	//Menu Item hover
+	$('.menuItem div').hover(function(){
+		$(this).addClass('text-shadow');
+	},function(){
+		$(this).removeClass('text-shadow');
+	});
+	
+	//Projects links ivents
+	$('#projectsPanes a').hover(function(){
+		$(this).css({'text-decoration':'underline'});
+	},function(){
+		$(this).css({'text-decoration':'none'});
+	});
+	$('#projectsPanes a').click(function(event){
+		event.preventDefault();
+		window.open($(this).attr('href'));
+	});
+	
 	//Solutions navigation push effect
 	$("#solutionsNav a").click(function(event){
 		event.preventDefault();

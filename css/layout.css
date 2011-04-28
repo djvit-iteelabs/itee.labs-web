@@ -5,7 +5,8 @@ html, body {
 	min-width: 1260px;
 	margin: 0px;
 	padding: 0px;
-	color: #555555;
+	/*color: #555555;*/
+	color:#000;
 	font-family: Verdana, Lucida Sans, Arial, Geneva, sans-serif;
 	background: #939498 url(../images/bg.page.png) repeat;
 }
