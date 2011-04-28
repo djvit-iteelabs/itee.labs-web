@@ -18,12 +18,31 @@
 			var i = pane.indexOf("#");
 			
 			pane = pane.substring(i);
-			if(i > 0){
+			if (i > 0) {
 				$('#solHeader').hide();
 				$('#solFooter').hide();
 				$('#solPanes div[id*=Pane]').hide();
 				$(pane).fadeIn(2000);
-				event.bubbles = false;		
+				
+				switch (pane) {
+					case '#periodicPane':
+						$('#periodicLink img').attr('src','images/sol.periodic.sh.png');
+						$('#periodicLink span').css({'text-decoration':'underline'});
+					break;
+					case '#booksPane':
+						$('#booksLink img').attr('src','images/sol.books.sh.png');
+						$('#booksLink span').css({'text-decoration':'underline'});
+					break;
+					case '#bookletsPane':
+						$('#bookletsLink img').attr('src','images/sol.booklets.sh.png');
+						$('#bookletsLink span').css({'text-decoration':'underline'});
+					break;
+					case '#catalogsPane':
+						$('#catalogsLink img').attr('src','images/sol.catalogs.sh.png');
+						$('#catalogsLink span').css({'text-decoration':'underline'});
+					break;
+					
+				}
 			}
 		});
 	</script>
