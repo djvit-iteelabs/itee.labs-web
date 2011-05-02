@@ -131,8 +131,17 @@ $(document).ready(function() {
 	
 	$('#mask').click(function(){
 		Close_Popup();
-	})
+	}),
 	
+	$('#txtsearch').focus(function(){
+		$(this).val('');
+		$(this).css({'color':'#000'});
+	});
+	
+	$('#txtsearch').blur(function(){
+		$(this).val('Search...');
+		$(this).css({'color':'#333'});
+	});
 });
 
 function Show_Popup() {
