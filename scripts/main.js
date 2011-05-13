@@ -90,7 +90,7 @@ $(document).ready(function() {
 		var pane = $(this).attr('href');
 		$('#projectsPanes div[id*=Pane]').hide();
 		$('#projectsCount').hide();
-		$('#headerCaption').html('<span class="solheaderText">PROJECTS</span>');
+		$('#headerCaption').html('<a href="projects.html" style="text-decoration:none;color:black;"><span class="solheaderText">PROJECTS</span></a>');
 		$(pane).fadeIn(2000);
 		
 		switch (pane){

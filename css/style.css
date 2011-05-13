@@ -76,6 +76,10 @@ p {
 	font-weight: normal;	
 }
 
+.italic{
+	font-style: italic;	
+}
+
 .left {
 	text-align: left;
 }
@@ -92,8 +96,20 @@ p {
 	text-align:justify;	
 }
 
+.floatLeft{
+	float: left;	
+}
+
+.floatRight{
+	float: right;	
+}
+
 .underline{
 	text-decoration:underline;	
+}
+
+.img-border{
+	border: 1px solid #000;	
 }
 
 .logo {
@@ -314,9 +330,9 @@ by Eugene*/
 
 .homeSolutionsImgR {
 	display: inline-block;
-	height: 180px;
-	margin-top: 40px;
-	width: 160px;
+	height: 200px;
+	margin-top: 15px;
+	width: 170px;
 	float: right;
 }
 
@@ -656,4 +672,14 @@ by Eugene*/
 
 #contactPanel h1,h2,h3,h4{
 	margin: 5px auto;
+}
+
+.homeSolutions p{
+	margin:0;
+}
+
+.contactImg{
+	display: inline-block;
+	position: relative;
+	top: 5px;
 }
