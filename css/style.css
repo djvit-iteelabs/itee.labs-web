@@ -330,9 +330,9 @@ by Eugene*/
 
 .homeSolutionsImgR {
 	display: inline-block;
-	height: 200px;
+	height: 185px;
 	margin-top: 15px;
-	width: 170px;
+	width: 185px;
 	float: right;
 }
 
@@ -592,13 +592,13 @@ by Eugene*/
 }
 
 .solNavText{
+	margin--top: 10px;
     display: inline-block;
     font-family: "Verdana";
     font-size: 14px;
     /*letter-spacing: 2px;*/
 	font-weight: 600;
     text-align: center;
-	margin-top: 10px;
 }
 
 .solNavText:first-letter{
